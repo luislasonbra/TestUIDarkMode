@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D9B283523A90CC40015889C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B283423A90CC40015889C /* AppDelegate.m */; };
+		8D9B283823A90CC40015889C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B283723A90CC40015889C /* ViewController.m */; };
+		8D9B283A23A90CCF0015889C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9B283923A90CCF0015889C /* Assets.xcassets */; };
+		8D9B283D23A90CCF0015889C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9B283B23A90CCF0015889C /* Main.storyboard */; };
+		8D9B284023A90CCF0015889C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B283F23A90CCF0015889C /* main.m */; };
+		8D9B284B23A90CD10015889C /* TestUIDarkModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B284A23A90CD10015889C /* TestUIDarkModeTests.m */; };
+		8D9B285623A90CD10015889C /* TestUIDarkModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B285523A90CD10015889C /* TestUIDarkModeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D9B284723A90CD00015889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D9B282823A90CC30015889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9B282F23A90CC40015889C;
+			remoteInfo = TestUIDarkMode;
+		};
+		8D9B285223A90CD10015889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D9B282823A90CC30015889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9B282F23A90CC40015889C;
+			remoteInfo = TestUIDarkMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D9B283023A90CC40015889C /* TestUIDarkMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUIDarkMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9B283323A90CC40015889C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D9B283423A90CC40015889C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D9B283623A90CC40015889C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D9B283723A90CC40015889C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D9B283923A90CCF0015889C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D9B283C23A90CCF0015889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D9B283E23A90CCF0015889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9B283F23A90CCF0015889C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D9B284123A90CCF0015889C /* TestUIDarkMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestUIDarkMode.entitlements; sourceTree = "<group>"; };
+		8D9B284623A90CD00015889C /* TestUIDarkModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUIDarkModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9B284A23A90CD10015889C /* TestUIDarkModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIDarkModeTests.m; sourceTree = "<group>"; };
+		8D9B284C23A90CD10015889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9B285123A90CD10015889C /* TestUIDarkModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUIDarkModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9B285523A90CD10015889C /* TestUIDarkModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIDarkModeUITests.m; sourceTree = "<group>"; };
+		8D9B285723A90CD10015889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D9B282D23A90CC40015889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B284323A90CD00015889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B284E23A90CD10015889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D9B282723A90CC30015889C = {
+			isa = PBXGroup;
+			children = (
+				8D9B283223A90CC40015889C /* TestUIDarkMode */,
+				8D9B284923A90CD00015889C /* TestUIDarkModeTests */,
+				8D9B285423A90CD10015889C /* TestUIDarkModeUITests */,
+				8D9B283123A90CC40015889C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9B283123A90CC40015889C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B283023A90CC40015889C /* TestUIDarkMode.app */,
+				8D9B284623A90CD00015889C /* TestUIDarkModeTests.xctest */,
+				8D9B285123A90CD10015889C /* TestUIDarkModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9B283223A90CC40015889C /* TestUIDarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B283323A90CC40015889C /* AppDelegate.h */,
+				8D9B283423A90CC40015889C /* AppDelegate.m */,
+				8D9B283623A90CC40015889C /* ViewController.h */,
+				8D9B283723A90CC40015889C /* ViewController.m */,
+				8D9B283923A90CCF0015889C /* Assets.xcassets */,
+				8D9B283E23A90CCF0015889C /* Info.plist */,
+				8D9B283F23A90CCF0015889C /* main.m */,
+				8D9B283B23A90CCF0015889C /* Main.storyboard */,
+				8D9B284123A90CCF0015889C /* TestUIDarkMode.entitlements */,
+			);
+			path = TestUIDarkMode;
+			sourceTree = "<group>";
+		};
+		8D9B284923A90CD00015889C /* TestUIDarkModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B284A23A90CD10015889C /* TestUIDarkModeTests.m */,
+				8D9B284C23A90CD10015889C /* Info.plist */,
+			);
+			path = TestUIDarkModeTests;
+			sourceTree = "<group>";
+		};
+		8D9B285423A90CD10015889C /* TestUIDarkModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B285523A90CD10015889C /* TestUIDarkModeUITests.m */,
+				8D9B285723A90CD10015889C /* Info.plist */,
+			);
+			path = TestUIDarkModeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D9B282F23A90CC40015889C /* TestUIDarkMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9B285A23A90CD10015889C /* Build configuration list for PBXNativeTarget "TestUIDarkMode" */;
+			buildPhases = (
+				8D9B282C23A90CC40015889C /* Sources */,
+				8D9B282D23A90CC40015889C /* Frameworks */,
+				8D9B282E23A90CC40015889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestUIDarkMode;
+			productName = TestUIDarkMode;
+			productReference = 8D9B283023A90CC40015889C /* TestUIDarkMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D9B284523A90CD00015889C /* TestUIDarkModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9B285D23A90CD10015889C /* Build configuration list for PBXNativeTarget "TestUIDarkModeTests" */;
+			buildPhases = (
+				8D9B284223A90CD00015889C /* Sources */,
+				8D9B284323A90CD00015889C /* Frameworks */,
+				8D9B284423A90CD00015889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D9B284823A90CD00015889C /* PBXTargetDependency */,
+			);
+			name = TestUIDarkModeTests;
+			productName = TestUIDarkModeTests;
+			productReference = 8D9B284623A90CD00015889C /* TestUIDarkModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D9B285023A90CD10015889C /* TestUIDarkModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9B286023A90CD10015889C /* Build configuration list for PBXNativeTarget "TestUIDarkModeUITests" */;
+			buildPhases = (
+				8D9B284D23A90CD10015889C /* Sources */,
+				8D9B284E23A90CD10015889C /* Frameworks */,
+				8D9B284F23A90CD10015889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D9B285323A90CD10015889C /* PBXTargetDependency */,
+			);
+			name = TestUIDarkModeUITests;
+			productName = TestUIDarkModeUITests;
+			productReference = 8D9B285123A90CD10015889C /* TestUIDarkModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D9B282823A90CC30015889C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "luis paulino";
+				TargetAttributes = {
+					8D9B282F23A90CC40015889C = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8D9B284523A90CD00015889C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8D9B282F23A90CC40015889C;
+					};
+					8D9B285023A90CD10015889C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8D9B282F23A90CC40015889C;
+					};
+				};
+			};
+			buildConfigurationList = 8D9B282B23A90CC30015889C /* Build configuration list for PBXProject "TestUIDarkMode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D9B282723A90CC30015889C;
+			productRefGroup = 8D9B283123A90CC40015889C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D9B282F23A90CC40015889C /* TestUIDarkMode */,
+				8D9B284523A90CD00015889C /* TestUIDarkModeTests */,
+				8D9B285023A90CD10015889C /* TestUIDarkModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D9B282E23A90CC40015889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9B283A23A90CCF0015889C /* Assets.xcassets in Resources */,
+				8D9B283D23A90CCF0015889C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B284423A90CD00015889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B284F23A90CD10015889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D9B282C23A90CC40015889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9B283823A90CC40015889C /* ViewController.m in Sources */,
+				8D9B284023A90CCF0015889C /* main.m in Sources */,
+				8D9B283523A90CC40015889C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B284223A90CD00015889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9B284B23A90CD10015889C /* TestUIDarkModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B284D23A90CD10015889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9B285623A90CD10015889C /* TestUIDarkModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D9B284823A90CD00015889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D9B282F23A90CC40015889C /* TestUIDarkMode */;
+			targetProxy = 8D9B284723A90CD00015889C /* PBXContainerItemProxy */;
+		};
+		8D9B285323A90CD10015889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D9B282F23A90CC40015889C /* TestUIDarkMode */;
+			targetProxy = 8D9B285223A90CD10015889C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D9B283B23A90CCF0015889C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9B283C23A90CCF0015889C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D9B285823A90CD10015889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D9B285923A90CD10015889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D9B285B23A90CD10015889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestUIDarkMode/TestUIDarkMode.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ5SW69MV7;
+				INFOPLIST_FILE = TestUIDarkMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudogamelab.TestUIDarkMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		8D9B285C23A90CD10015889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestUIDarkMode/TestUIDarkMode.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ5SW69MV7;
+				INFOPLIST_FILE = TestUIDarkMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudogamelab.TestUIDarkMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		8D9B285E23A90CD10015889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ5SW69MV7;
+				INFOPLIST_FILE = TestUIDarkModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudogamelab.TestUIDarkModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestUIDarkMode.app/Contents/MacOS/TestUIDarkMode";
+			};
+			name = Debug;
+		};
+		8D9B285F23A90CD10015889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ5SW69MV7;
+				INFOPLIST_FILE = TestUIDarkModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudogamelab.TestUIDarkModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestUIDarkMode.app/Contents/MacOS/TestUIDarkMode";
+			};
+			name = Release;
+		};
+		8D9B286123A90CD10015889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ5SW69MV7;
+				INFOPLIST_FILE = TestUIDarkModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudogamelab.TestUIDarkModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestUIDarkMode;
+			};
+			name = Debug;
+		};
+		8D9B286223A90CD10015889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ5SW69MV7;
+				INFOPLIST_FILE = TestUIDarkModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudogamelab.TestUIDarkModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestUIDarkMode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D9B282B23A90CC30015889C /* Build configuration list for PBXProject "TestUIDarkMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9B285823A90CD10015889C /* Debug */,
+				8D9B285923A90CD10015889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9B285A23A90CD10015889C /* Build configuration list for PBXNativeTarget "TestUIDarkMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9B285B23A90CD10015889C /* Debug */,
+				8D9B285C23A90CD10015889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9B285D23A90CD10015889C /* Build configuration list for PBXNativeTarget "TestUIDarkModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9B285E23A90CD10015889C /* Debug */,
+				8D9B285F23A90CD10015889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9B286023A90CD10015889C /* Build configuration list for PBXNativeTarget "TestUIDarkModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9B286123A90CD10015889C /* Debug */,
+				8D9B286223A90CD10015889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D9B282823A90CC30015889C /* Project object */;
+}
